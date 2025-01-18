@@ -1,0 +1,1 @@
+In SQL, a common yet subtle error arises when using `IN` with subqueries that return empty sets.  If a subquery in an `IN` clause returns no rows, the entire `WHERE` condition evaluates to false, even if it's logically expected to return some rows based on other conditions.  This often leads to unexpected empty result sets.
